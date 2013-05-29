@@ -20,20 +20,19 @@ public class FourSum {
 	
 	/* use hash table, worst case will still be O(n^3)*/
 	public ArrayList<ArrayList<Integer>> fourSum1(int[] num, int target) {
-        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
-    	ArrayList<Integer> ilist = new ArrayList<Integer>();
+		ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+		ArrayList<Integer> ilist = new ArrayList<Integer>();
 		if(num.length<4) return res;
 
 		Arrays.sort(num);
 		Map<Integer, ArrayList<Integer>> hash = new HashMap<Integer, ArrayList<Integer>>();
-        
-        
+		
 		ArrayList<Integer> tlist = new ArrayList<Integer>();
 		for(int i=0; i<num.length; i++)
 			for(int j=i+1; j<num.length; j++){
 				int tempint = target-num[i]-num[j];
-                tlist.clear();				
-                if(hash.containsKey(tempint))
+				tlist.clear();				
+				if(hash.containsKey(tempint))
 					tlist = hash.get(tempint);
 
 				tlist.add(i);
