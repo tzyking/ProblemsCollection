@@ -56,10 +56,10 @@ public class FourSum {
 				int s = num[p] + num[q];
 				if(hash.containsKey(s)){
 					ArrayList<Integer> t = hash.get(s);
-                    int count =Integer.MAX_VALUE;
+					int count =Integer.MAX_VALUE;
 					for(int x=0; x<t.size()-1; x+=2){
 						if(t.get(x)<=q || (x>count && num[t.get(x-2)]==num[t.get(x)] && num[t.get(x-1)]==num[t.get(x+1)])){
-                            continue;
+							continue;
 						}
 						else{
 							ilist.clear();
@@ -68,7 +68,7 @@ public class FourSum {
 							ilist.add(num[t.get(x)]);
 							ilist.add(num[t.get(x+1)]);
 							res.add((ArrayList<Integer>)ilist.clone());
-                            count = x;
+							count = x;
 						}
 					}
 				}
