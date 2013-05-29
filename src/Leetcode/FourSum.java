@@ -52,7 +52,7 @@ public class FourSum {
 			p_value = num[p];
 
 			while(q<num.length-2){
-                q_value = num[q];
+				q_value = num[q];
 				int s = num[p] + num[q];
 				if(hash.containsKey(s)){
 					ArrayList<Integer> t = hash.get(s);
