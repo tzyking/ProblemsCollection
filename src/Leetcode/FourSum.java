@@ -28,7 +28,7 @@ public class FourSum {
 		Map<Integer, ArrayList<Integer>> hash = new HashMap<Integer, ArrayList<Integer>>();
 		
 		ArrayList<Integer> tlist = new ArrayList<Integer>();
-		for(int i=0; i<num.length; i++)
+		for(int i=0; i<num.length; i++){
 			for(int j=i+1; j<num.length; j++){
 				int tempint = target-num[i]-num[j];
 				tlist.clear();				
@@ -39,6 +39,7 @@ public class FourSum {
 				tlist.add(j);
 				hash.put(tempint,(ArrayList<Integer>)tlist.clone());				
 			}
+		}
 
 		int p,q;
 		int p_value = Integer.MAX_VALUE;
