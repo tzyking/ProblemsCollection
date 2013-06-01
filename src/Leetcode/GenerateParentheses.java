@@ -30,7 +30,6 @@ public class GenerateParentheses {
 		if(level ==  (num * 2) && balance == 0){
 			result.add(new String(str));  
 		}
-		
 		if(level == (num * 2)) return;    /*note: when level is exceed upper bound and balance != 0, it should return*/
 		
 		for(int i = 0; i < 2; i++){
