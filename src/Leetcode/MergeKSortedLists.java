@@ -45,9 +45,10 @@ import java.util.PriorityQueue;
 
 public class MergeKSortedLists {
 
+	/*
+	 * O(n): n*k
+	 * */
 	public static ListNode mergeKLists(ArrayList<ListNode> lists) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         ListNode ret = null, curr = null;
         
         while(!lists.isEmpty())
@@ -57,6 +58,7 @@ public class MergeKSortedLists {
             ArrayList<ListNode> NullNodes = new ArrayList<ListNode> ();
             for(ListNode ln : lists)
             {
+            	/*Notes: null check*/
             	if(ln == null)
             		NullNodes.add(ln);
             	else if(ln.val < min)
@@ -66,7 +68,7 @@ public class MergeKSortedLists {
                 }
             }
             
-            /*null check*/
+            /*Notes: null check*/
             if(!NullNodes.isEmpty())
             {
             	for(ListNode NullNode : NullNodes)
@@ -100,6 +102,16 @@ public class MergeKSortedLists {
         return ret;
     }
 	
+	/*
+	 * Using PriorityQueue
+	 * O(n): nlogk(add each element to priorityQueue) + nlogk(find min element and remove it from priorityQueue) + n(add each element to result list) = nlogk
+	 * 
+	 * remove minimum from 
+	 *
+	 *  
+	 *  notes: remove the minimum element from minheap: http://www.algolist.net/Data_structures/Binary_heap/Remove_minimum
+	 *  	   insert an element into a minheap: http://www.algolist.net/Data_structures/Binary_heap/Insertion
+	 * */
 	 public ListNode mergeKLists2(ArrayList<ListNode> lists) {
 	        // Start typing your Java solution below
 	        // DO NOT write main() function
