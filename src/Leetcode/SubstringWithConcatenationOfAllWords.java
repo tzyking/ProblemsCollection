@@ -53,9 +53,9 @@ public class SubstringWithConcatenationOfAllWords {
 				if(CurrString.get(Item) > ItemCounter.get(Item))
 					break;
 			}
-           if(k == n)
-               ret.add(j); 
-       }
+			if(k == n)
+				ret.add(j); 
+		}
        return ret; 
 	}
 	
