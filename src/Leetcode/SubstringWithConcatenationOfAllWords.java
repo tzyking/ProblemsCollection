@@ -56,7 +56,7 @@ public class SubstringWithConcatenationOfAllWords {
 			if(k == n)
 				ret.add(j); 
 		}
-       return ret; 
+		return ret; 
 	}
 	
 	public static void main(String[] args) {
