@@ -30,8 +30,7 @@ public class CombinationSum {
         
         combin(ret, 0, candidates, target, CurrSet); 
         
-        return ret;
-        
+        return ret;    
     }
     
     
