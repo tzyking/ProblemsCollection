@@ -49,7 +49,7 @@ public class MergeKSortedLists {
 	 * O(n): n*k
 	 * */
 	public static ListNode mergeKLists(ArrayList<ListNode> lists) {
-        ListNode ret = null, curr = null;
+        ListNode ret = null, curr = null;	
         
         while(!lists.isEmpty())
         {
