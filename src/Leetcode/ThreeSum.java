@@ -26,37 +26,39 @@ public class ThreeSum {
 	 public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
 	        // Start typing your Java solution below
 	        // DO NOT write main() function
-	        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
-	        if(num.length<3) return res;
-	        
-	        Arrays.sort(num);
-	        for(int i=0;i<num.length-2;i++){
-	            if(i==0 || num[i]>num[i-1]){ //avoid duplicate solutions   
-	                int j=i+1, 
-	                    k=num.length-1;
-	         
-	                while(j<k){ 
-	                    if(num[j]+num[k]==-num[i]){
-	                        ArrayList<Integer> temp = new ArrayList<Integer>();
-	                        temp.add(num[i]);
-	                        temp.add(num[j]);
-	                        temp.add(num[k]);
-	                        res.add(temp);
-	                        k--;
-	                        j++;
-	                        while(k>j && num[k]==num[k+1]) k--;//avoid duplicate solutions 
-
-	                        while(j<k && num[j]==num[j-1]) j++;//avoid duplicate solutions 
-
-	                    }else if(num[j]+num[k]>-num[i]){
-	                        k--;
-	                    }else{
-	                        j++;
-	                    }
+		 Arrays.sort(num);
+	        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>> (); 
+	        for(int i = 0; i < num.length - 2; i++) {
+	            if (i > 0 && num[i] == num[i - 1])
+	                continue; 
+	            int j = i + 1; 
+	            int k = num.length - 1; 
+	            while(j < k) {
+	                if(j > i+1 && num[j] == num[j-1]){
+	                    j++;
+	                    continue;   
+	                } 
+	                if(k < num.length-1 && num[k] == num[k+1]) {
+	                    k--;
+	                    continue;    
 	                }
+	                if(num[i] + num[j] + num[k] == 0) {
+	                    ArrayList<Integer> set = new ArrayList<Integer> (); 
+	                    set.add(num[i]);
+	                    set.add(num[j]);
+	                    set.add(num[k]);
+	                    ret.add(set);
+	                    j++;
+	                    k--;
+	                    
+	                } else if(num[i] + num[j] + num[k] > 0) {
+	                    k--;
+	                } else if(num[i] + num[j] + num[k] < 0) {
+	                    j++;
+	                }   
 	            }
 	        }
-	        return res;
+	        return ret; 
 	   }
 	
 	/**
