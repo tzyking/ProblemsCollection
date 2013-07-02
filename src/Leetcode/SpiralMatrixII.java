@@ -1,5 +1,5 @@
 package Leetcode;
-/*
+/*	Spiral Matrix II:
 *	Given an integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
 *
 	For example,
@@ -13,6 +13,7 @@ package Leetcode;
 *
 */
 public class SpiralMatrixII {
+	/*recusive solution*/
 	public static int[][] generateMatrix(int n) {
 		int[][] ret = new int[n][n];
 		generateOrder(ret, 0, n, 0, n, 1);
@@ -41,6 +42,42 @@ public class SpiralMatrixII {
 			m[RowS+RowL-1][ColS+ColL-1-i] = val++;
 		for(int i = 0; i < RowL-1; i++) 			//left side
 			m[RowS+RowL-1-i][ColS] = val++;
-		genreateOrder(m, RowS+1, RowL-2, ColS+1, ColL-2, val);
+		generateOrder(m, RowS+1, RowL-2, ColS+1, ColL-2, val);
 	}
+	
+	/*Iterative solution*/
+	public static int[][] iterativeGenerateMatrix(int n){
+		int[][] ret = new int[n][n];
+		if(n <= 0) return ret;  
+		int i = 0, j = 0, k = 0;
+		ret[0][0] = 1; 
+		while (k <= n*n - 1) {
+			while(j+1 < n && ret[i][j+1] == 0) {		//up side
+				j++;
+				k++;
+				ret[i][j] = k+1; 
+			}
+			while(i+1 < n && ret[i+1][j] == 0) {     	//right side
+				i++;
+				k++;
+				ret[i][j] = k+1; 
+			}
+			while(j > 0 && ret[i][j-1] == 0) {		//bottom side
+				j--;
+				k++;
+				ret[i][j] = k+1; 
+			}
+			while(i > 0 && ret[i-1][j] == 0) {		//left side
+				i--;
+				k++;
+				ret[i][j] = k+1; 
+			}
+ 		} 
+		return ret;
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
 }
