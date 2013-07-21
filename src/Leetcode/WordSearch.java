@@ -47,18 +47,25 @@ public class WordSearch {
         if(flag[y][x] || board[y][x] != input[index] ) return false;
         
         flag[y][x] = true;
-
+	
+	//up
         if(wordChecker(board, input, index+1, x, y-1, flag)) {
             return true;
         }
+	
+	//down
         if(wordChecker(board, input, index+1, x, y+1, flag)) {
             return true;
 
         }
+
+	//left
         if(wordChecker(board, input, index+1, x-1, y, flag)) {
             return true;
             
         }
+
+	//right
         if(wordChecker(board, input, index+1, x+1, y, flag)) {
             return true;
         }
