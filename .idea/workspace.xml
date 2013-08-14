@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd41cccb-e930-4e52-a181-2d5a70dd485a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/TreeNode.java" afterPath="$PROJECT_DIR$/src/Util/TreeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProblemsCollection.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374329373754" ignored="false" />
+    <file path="/Dummy.txt" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1376445581224" ignored="false" />
     <file path="$PROJECT_DIR$/../TestingSolution/src/Solution.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374369648390" ignored="false" />
     <file path="/Solution.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374334873348" ignored="false" />
+    <file path="/RemoveDuplicatesFromSortListII.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374721426641" ignored="false" />
+    <file path="/PartitionList.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374961305198" ignored="false" />
+    <file path="/TreeSumRecursion.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1376448351642" ignored="false" />
+    <file path="/TreeNode.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1376447316482" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +75,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CombinationSum.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/CombinationSum.java">
+      <file leaf-file-name="DijKstraAlgorithm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="90" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+            <state line="16" column="48" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSumRecursion.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="38" selection-start="116" selection-end="116" vertical-scroll-proportion="0.13931888">
+              <folding>
+                <element signature="e#851#861#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTInorderTraversal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="80" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordSearch.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/WordSearch.java">
+      <file leaf-file-name="ListNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="74" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.7850563">
+            <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,6 +149,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Leetcode/Subsets.java" />
+        <option value="$PROJECT_DIR$/src/Leetcode/WordSearch.java" />
+        <option value="$PROJECT_DIR$/src/Leetcode/RemoveDuplicatesFromSortListII.java" />
+        <option value="$PROJECT_DIR$/src/Leetcode/PartitionList.java" />
+        <option value="$PROJECT_DIR$/src/Util/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java" />
       </list>
     </option>
   </component>
@@ -148,7 +188,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,6 +220,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -196,7 +239,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Leetcode" />
+              <option name="myItemId" value="ProblemsForReview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProblemsCollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProblemsCollection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,21 +277,40 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TreeSumRecursion">
+    <configuration default="false" name="TreeSumRecursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemsForReview.TreeSumRecursion" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProblemsCollection" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -323,7 +399,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -355,7 +438,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -385,18 +468,18 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21824974" sideWeight="0.28656715" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19263607" sideWeight="0.6706468" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21824974" sideWeight="0.6706468" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -467,83 +550,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="90" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/Subsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="78" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/CombinationSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="32" selection-start="895" selection-end="895" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.030706244" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Leetcode/LetterCombinationsOfAPhoneNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="553" selection-end="553" vertical-scroll-proportion="0.09211873">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="80" selection-start="320" selection-end="320" vertical-scroll-proportion="0.19918284">
           <folding />
         </state>
       </provider>
@@ -562,19 +576,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/PowerFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/RotateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/PartitionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="43" selection-start="919" selection-end="919" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="13" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/RemoveDuplicatesFromSortListII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="65" selection-start="560" selection-end="560" vertical-scroll-proportion="0.2451481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/WordSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="74" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.7854954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Leetcode/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="90" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+        <state line="3" column="90" selection-start="71" selection-end="71" vertical-scroll-proportion="0.030643513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="80" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/WordSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="74" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.7850563">
+        <state line="16" column="48" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="116" selection-end="116" vertical-scroll-proportion="0.13931888">
+          <folding>
+            <element signature="e#851#861#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
