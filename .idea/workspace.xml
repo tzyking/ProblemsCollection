@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd41cccb-e930-4e52-a181-2d5a70dd485a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProblemsForReview/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java" afterPath="$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ProblemsForReview/Triangle.java" afterPath="$PROJECT_DIR$/src/ProblemsForReview/YodleTriangle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProblemsCollection.iws" />
@@ -79,16 +78,16 @@
       <file leaf-file-name="TreeSumRecursion.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="183" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+            <state line="33" column="23" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/Triangle.java">
+      <file leaf-file-name="YodleTriangle.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/YodleTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="160" selection-start="499" selection-end="499" vertical-scroll-proportion="0.49841774">
+            <state line="14" column="56" selection-start="423" selection-end="423" vertical-scroll-proportion="0.3322785">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +98,7 @@
       <file leaf-file-name="DijKstraAlgorithm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="214" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
+            <state line="32" column="28" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,7 +107,7 @@
       <file leaf-file-name="ZigZag.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/ZigZag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="95" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+            <state line="23" column="14" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/ProblemsForReview/Triangle.java" />
         <option value="$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java" />
         <option value="$PROJECT_DIR$/src/ProblemsForReview/ZigZag.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/YodleTriangle.java" />
       </list>
     </option>
   </component>
@@ -287,7 +287,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Triangle">
+  <component name="RunManager" selected="Application.YodleTriangle">
     <configuration default="false" name="TreeSumRecursion" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ProblemsForReview.TreeSumRecursion" />
       <option name="VM_PARAMETERS" />
@@ -304,8 +304,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Triangle" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ProblemsForReview.Triangle" />
+    <configuration default="false" name="YodleTriangle" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemsForReview.YodleTriangle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -410,11 +410,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Triangle" />
+      <item index="1" class="java.lang.String" itemvalue="Application.YodleTriangle" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Triangle" />
+        <item index="0" class="java.lang.String" itemvalue="Application.YodleTriangle" />
         <item index="1" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
       </list>
     </recent_temporary>
@@ -476,6 +476,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -490,7 +491,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24829157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -635,28 +635,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/ZigZag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="95" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
+        <state line="23" column="14" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="214" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
+        <state line="32" column="28" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="183" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+        <state line="33" column="23" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/YodleTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="160" selection-start="499" selection-end="499" vertical-scroll-proportion="0.49841774">
+        <state line="14" column="56" selection-start="423" selection-end="423" vertical-scroll-proportion="0.3322785">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

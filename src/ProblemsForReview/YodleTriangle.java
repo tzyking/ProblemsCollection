@@ -8,9 +8,9 @@ import java.io.IOException;
 /**
  * position link: http://www.yodlecareers.com/jobs/new-york/software-engineer/
  *
-     1 - Triangle
+     1 - YodleTriangle
 
-     Triangle
+     YodleTriangle
      By starting at the top of the triangle and moving to adjacent numbers on the row below,
      the maximum total from top to bottom is 27.
 
@@ -25,11 +25,11 @@ import java.io.IOException;
      in triangle.txt, a text file containing a triangle with 100 rows. Send your solution and
      resume to [123456 AT yodle dot com], replacing 123456 with the maximum sum for the triangle.
  */
-public class Triangle {
+public class YodleTriangle {
     public BufferedReader dataSource;
     public int[][] numSet;
 
-    public Triangle(String filePath, int[][] arr) {
+    public YodleTriangle(String filePath, int[][] arr) {
         try {
             this.dataSource = new BufferedReader(new FileReader(filePath));
             this.numSet = arr;
@@ -80,7 +80,7 @@ public class Triangle {
     public static void main(String[] args) throws IOException {
         String filePath = "/Users/JT026354/Documents/workspace/ProblemsCollection/src/ProblemsForReview/triangle.txt";
         int[][] arr = new int[100][100];
-        Triangle t = new Triangle(filePath, arr);
+        YodleTriangle t = new YodleTriangle(filePath, arr);
         System.out.println(t.trianglePathSum());
     }
 }
