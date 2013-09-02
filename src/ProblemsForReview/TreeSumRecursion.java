@@ -43,7 +43,6 @@ public class TreeSumRecursion {
 
     private static void walk(TreeNode node, List<TreeNode> walkNodes) {
         walkNodes.add(node);
-
         if (node.isLeaf()) {
             int sum = 0;
             for (TreeNode item : walkNodes) {
@@ -51,21 +50,16 @@ public class TreeSumRecursion {
             }
 
             if (sum == expectSum) {
-                for (TreeNode n : walkNodes) {
+                for (TreeNode n : walkNodes)
                     System.out.print(" " + n.getValue());
-                }
                 System.out.println();
             }
         } else {
-            if (node.getLeftNode() != null) {
+            if (node.getLeftNode() != null)
                 walk(node.getLeftNode(),walkNodes);
-            }
-
-            if (node.getRightNode() != null) {
+            if (node.getRightNode() != null)
                 walk(node.getRightNode(),walkNodes);
-            }
         }
-
         walkNodes.remove(walkNodes.size() - 1);
     }
 }
