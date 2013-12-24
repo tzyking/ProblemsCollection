@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd41cccb-e930-4e52-a181-2d5a70dd485a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProblemsForReview/BSTPreorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProblemsForReview/CabFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ProblemsForReview/ReverseLinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java" afterPath="$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProblemsForReview/BSTPostOrderTraversal.java" afterPath="$PROJECT_DIR$/src/ProblemsForReview/BSTPostOrderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/TreeNode.java" afterPath="$PROJECT_DIR$/src/Util/TreeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProblemsCollection.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1384139580660" ignored="false" />
+    <file path="/Dummy.txt" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1387854528434" ignored="false" />
     <file path="$PROJECT_DIR$/../TestingSolution/src/Solution.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374369648390" ignored="false" />
     <file path="/Solution.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374334873348" ignored="false" />
     <file path="/RemoveDuplicatesFromSortListII.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1374721426641" ignored="false" />
@@ -16,6 +22,11 @@
     <file path="/Triangle.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1376618762314" ignored="false" />
     <file path="/test.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1382407115218" ignored="false" />
     <file path="/atoiStr2Int.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1384141072667" ignored="false" />
+    <file path="/ReverseLinkedList.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1387736522467" ignored="false" />
+    <file path="/BSTPreorderTraversal.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1387743853613" ignored="false" />
+    <file path="/BSTPostOrderTraversal.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1387744044295" ignored="false" />
+    <file path="/BSTInorderTraversal.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1387743962659" ignored="false" />
+    <file path="/CabFinder.java" changelist="cd41cccb-e930-4e52-a181-2d5a70dd485a" time="1387769617603" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +87,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Anagrams.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/Anagrams.java">
+      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="8" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+            <state line="74" column="4" selection-start="1646" selection-end="1686" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="atoiStr2Int.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Leetcode/atoiStr2Int.java">
+      <file leaf-file-name="BSTPreorderTraversal.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTPreorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="26" selection-start="229" selection-end="229" vertical-scroll-proportion="-0.34241244">
+            <state line="3" column="50" selection-start="79" selection-end="79" vertical-scroll-proportion="0.01775148">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTPostOrderTraversal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTPostOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTInorderTraversal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="79" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#509#518#0" expanded="true" />
+                <element signature="e#614#624#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,11 +151,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Leetcode/Subsets.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/RemoveDuplicatesFromSortListII.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/PartitionList.java" />
-        <option value="$PROJECT_DIR$/src/Util/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/ProblemsForReview/Triangle.java" />
         <option value="$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java" />
         <option value="$PROJECT_DIR$/src/ProblemsForReview/ZigZag.java" />
@@ -130,13 +161,19 @@
         <option value="$PROJECT_DIR$/src/Util/test.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/atoi.java" />
         <option value="$PROJECT_DIR$/src/Leetcode/atoiStr2Int.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/Util/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/BSTPreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/BSTPostOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/ProblemsForReview/CabFinder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="841" />
+    <option name="width" value="1680" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -164,6 +201,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,24 +291,24 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.atoiStr2Int">
+  <component name="RunManager" selected="Application.BSTPreorderTraversal">
     <configuration default="false" name="TreeSumRecursion" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ProblemsForReview.TreeSumRecursion" />
       <option name="VM_PARAMETERS" />
@@ -305,6 +343,38 @@
     </configuration>
     <configuration default="false" name="atoiStr2Int" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Leetcode.atoiStr2Int" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProblemsCollection" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemsForReview.ReverseLinkedList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProblemsCollection" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BSTPreorderTraversal" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemsForReview.BSTPreorderTraversal" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -407,16 +477,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
       <item index="1" class="java.lang.String" itemvalue="Application.YodleTriangle" />
       <item index="2" class="java.lang.String" itemvalue="Application.atoiStr2Int" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BSTPreorderTraversal" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.atoiStr2Int" />
-        <item index="1" class="java.lang.String" itemvalue="Application.YodleTriangle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BSTPreorderTraversal" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ReverseLinkedList" />
+        <item index="2" class="java.lang.String" itemvalue="Application.atoiStr2Int" />
+        <item index="3" class="java.lang.String" itemvalue="Application.YodleTriangle" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TreeSumRecursion" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -471,8 +545,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="841" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1680" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -482,16 +556,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21824974" sideWeight="0.28656715" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2482066" sideWeight="0.7517337" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2482663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26009792" sideWeight="0.7944891" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20551091" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -562,77 +636,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Util/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="0.16253869" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/triangle.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="196" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/StringRotationChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.030643513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="716" selection-end="716" vertical-scroll-proportion="0.55158323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.27579162">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/ZigZagConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/YodleTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="159" selection-start="262" selection-end="262" vertical-scroll-proportion="0.021582734">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/DijKstraAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="28" selection-start="988" selection-end="988" vertical-scroll-proportion="0.021582734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="23" selection-start="589" selection-end="589" vertical-scroll-proportion="0.20143884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/ZigZag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="14" selection-start="1027" selection-end="1027" vertical-scroll-proportion="0.021582734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DijkstraShortestPath/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.043165468" />
@@ -643,23 +646,106 @@
         <state line="2" column="13" selection-start="44" selection-end="44" vertical-scroll-proportion="0.021582734" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Leetcode/Anagrams.java">
+    <entry file="file://$PROJECT_DIR$/src/Util/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.03550296">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/test.java">
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/YodleTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="28" selection-end="28" vertical-scroll-proportion="0.05836576">
-          <folding />
+        <state line="40" column="81" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.1597633">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Leetcode/atoiStr2Int.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="229" selection-end="229" vertical-scroll-proportion="-0.34241244">
+        <state line="25" column="44" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/UniqueCharChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="-0.01183432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/TreeSumRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="4" selection-start="524" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Leetcode/Anagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="8" selection-start="507" selection-end="507" vertical-scroll-proportion="0.42921686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.13554217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/CharArrayDuplicateRemover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="41" selection-end="41" vertical-scroll-proportion="0.045180723">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="4" selection-start="1646" selection-end="1686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/CabFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="62" selection-start="460" selection-end="460" vertical-scroll-proportion="0.4066265">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTPostOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="22" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="79" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#509#518#0" expanded="true" />
+            <element signature="e#614#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProblemsForReview/BSTPreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="50" selection-start="79" selection-end="79" vertical-scroll-proportion="0.01775148">
           <folding />
         </state>
       </provider>
